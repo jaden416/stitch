@@ -11,4 +11,8 @@
     text-rendering: optimizeLegibility;
     background-color: #141414;
   }
+  @font-face {
+    font-family: "jetbrains";
+    src: url("./assets/fonts/JetBrainsMono-VariableFont_wght.ttf");
+  }
 }
