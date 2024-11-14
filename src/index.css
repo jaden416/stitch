@@ -7,18 +7,21 @@
     font-size: 62.5%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     background-color: #0a0a0a;
     font-family: "JetBrains Mono";
   }
+
   @font-face {
     font-family: "JetBrains Mono";
-    src: local("jetbrains"),
-      url("./assets/fonts/JetBrainsMono-VariableFont_wght.ttf");
+    src:
+      local("jetbrains"),
+      url("./assets/fonts/JetBrainsMono-Bold.woff2") format("woff2");
+  }
 
-    /* font-family: "RubikScribble";
-    src:local("RubikScribble-Regular"),
-    url('./assets/fonts/Rubik_Scribble/RubikScribble-Regular.ttf')  */
+  @font-face {
+    font-family: "JetBrains Mono";
+    src:
+      local("jetbrains"),
+      url("./assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
   }
 }
