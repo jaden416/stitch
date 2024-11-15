@@ -33,7 +33,7 @@ type HeaderProps = PropsWithChildren & {
 export default function Header({ header, children }: HeaderProps) {
   return (
     <HeaderContext.Provider value={{ header }}>
-      <header className="flex w-full max-w-[60rem] flex-col gap-[2rem] rounded-[.4rem] border-[1px] border-dashed border-[rgba(255,255,255,.2)] p-[2rem] md:p-[2.4rem]">
+      <header className="flex w-full max-w-[60rem] flex-col gap-[2rem] rounded-[.4rem] p-[1.2rem] md:p-[2.4rem]">
         {children}
       </header>
     </HeaderContext.Provider>
