@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      jetbrains: ["jetbrains"],
+      jetbrains: ["JetBrains Mono"],
+      jetbrainsbold: ["JetBrains Mono Bold"],
     },
   },
   plugins: [],
