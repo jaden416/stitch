@@ -12,9 +12,9 @@ function App() {
   const [popoverContent, setPopoverContent] = React.useState<boolean>(false);
   const handleClick = () => {};
   return (
-    <nav className="fixed bottom-0 left-1/2 z-50 flex w-full -translate-x-1/2 justify-center pb-[2rem]">
+    <nav className=" justify-center pb-[2rem]">
       <Popover open={popoverContent}>
-        <PopoverAnchor className="bg-darkgrey shadow-shado relative z-30 flex items-center gap-1.5 rounded-[1.2rem] p-2">
+        <PopoverAnchor className="relative z-30 flex items-center gap-1.5 rounded-[1.2rem] p-2">
           {links.map((link, index) => {
             return (
               <Tooltip
@@ -39,7 +39,7 @@ function App() {
             >
               <Icons.email
                 className="z-50 h-[2.4rem] w-[2.4rem]"
-                color="white"
+                color="#545964"
               />
             </Tooltip>
           </PopoverTrigger>
@@ -59,14 +59,14 @@ const links = [
     href: "/",
     title: "Home",
     children: (
-      <Icons.home className="z-50 h-[2.4rem] w-[2.4rem]" color="white" />
+      <Icons.home className="z-50 h-[2.4rem] w-[2.4rem]" color="#545964" />
     ),
   },
   {
     href: "/work",
     title: "Work",
     children: (
-      <Icons.keyboard className="z-50 h-[2.4rem] w-[2.4rem]" color="white" />
+      <Icons.keyboard className="z-50 h-[2.4rem] w-[2.4rem]" color="#545964" />
     ),
   },
 ];

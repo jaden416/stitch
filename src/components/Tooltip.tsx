@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 import * as RadixTooltip from "@radix-ui/react-tooltip";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 
 interface TooltipProps
   extends React.ComponentPropsWithoutRef<typeof RadixTooltip.Root> {

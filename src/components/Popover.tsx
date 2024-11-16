@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 import * as RadixPopover from "@radix-ui/react-popover";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { Icons } from "./Icons";
 
 const Popover = ({ children, ...props }: PopoverProps) => {
